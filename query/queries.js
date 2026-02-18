@@ -74,7 +74,7 @@ db.restaurants.find({ "location.coordinates": { $nearSphere: { $geometry: { type
 db.restaurants.find({}, { _id: 0 }).sort({ name: 1 });
 
 // 26. Ordenar els noms dels restaurants en ordre descendent, mostrant totes les columnes.
-db.restaurants.find({}, { _id: 0 }).sort({ name: -1 });
+
 
 // 27. Ordenar cuisine ascendent i borough descendent.
 
