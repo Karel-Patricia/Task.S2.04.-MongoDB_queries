@@ -16,28 +16,13 @@
 - ✔️ OK - Query **[ 5 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 6 ]** Result does not match expected output.
-
-
-🧩 Mismatch at position 0:
-- **Expected:** {"address":{},"borough":"Bronx","cuisine":"Bakery","grades":[{},{},{},{},{}],"location":{},"name":"Morris Park Bake Shop","restaurant_id":30075445}
-- **Actual:** {"_id":"69963c1549895317a73a072f","address":{},"borough":"Bronx","cuisine":"Bakery","grades":[{},{},{},{},{}],"location":{},"name":"Morris Park Bake Shop","restaurant_id":30075445}
+- ✔️ OK - Query **[ 6 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 7 ]** Result does not match expected output.
-
-
-🧩 Mismatch at position 0:
-- **Expected:** {"address":{},"borough":"Bronx","cuisine":"American","grades":[{},{}],"location":{},"name":"Manhem Club","restaurant_id":40364363}
-- **Actual:** {"_id":"69963c1549895317a73a0769","address":{},"borough":"Bronx","cuisine":"American","grades":[{},{}],"location":{},"name":"Manhem Club","restaurant_id":40364363}
+- ✔️ OK - Query **[ 7 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 8 ]** Result does not match expected output.
-
-
-🧩 Mismatch at position 0:
-- **Expected:** {"address":{},"borough":"Manhattan","cuisine":"American","grades":[{},{},{},{},{},{}],"location":{},"name":"Murals On 54/Randolphs'S","restaurant_id":40372466}
-- **Actual:** {"_id":"69963c1549895317a73a088a","address":{},"borough":"Manhattan","cuisine":"American","grades":[{},{},{},{},{},{}],"location":{},"name":"Murals On 54/Randolphs'S","restaurant_id":40372466}
+- ✔️ OK - Query **[ 8 ]**
 
 ---
 - ❌ MISMATCH - Query **[ 9 ]** Result does not match expected output.
@@ -49,4 +34,31 @@
 
 ---
 - ✔️ OK - Query **[ 10 ]**
+
+---
+- ✔️ OK - Query **[ 11 ]**
+
+---
+- ✔️ OK - Query **[ 13 ]**
+
+---
+- ✔️ OK - Query **[ 14 ]**
+
+---
+- ✔️ OK - Query **[ 15 ]**
+
+---
+- ✔️ OK - Query **[ 16 ]**
+
+---
+- ✔️ OK - Query **[ 17 ]**
+
+---
+- ✔️ OK - Query **[ 18 ]**
+
+---
+- ✔️ OK - Query **[ 19 ]**
+
+---
+- ✔️ OK - Query **[ 20 ]**
 
