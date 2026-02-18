@@ -68,16 +68,16 @@ db.restaurants.find({ grades: { $elemMatch: { grade: "A", score: 11, date: ISODa
 db.restaurants.find({ "grades.1.grade": "A", "grades.1.score": 9, "grades.1.date": ISODate("2014-08-11T00:00:00.000Z") }, { restaurant_id: 1, name: 1, grades: 1, _id: 0 });
 
 // 24. Trobar el restaurant_id, name, street, zipcode i coordenades dels restaurants a menys de 5 km de [-74, 40.7].
-
+db.restaurants.find({ "location.coordinates": { $nearSphere: { $geometry: { type: "Point", coordinates: [-74, 40.7] }, $maxDistance: 5000 } } }, { restaurant_id: 1, name: 1, "address.street": 1, "address.zipcode": 1, "location.coordinates": 1, _id: 0 });
 
 // 25. Ordenar els noms dels restaurants en ordre ascendent, mostrant totes les columnes.
-
+db.restaurants.find({}, { _id: 0 }).sort({ name: 1 });
 
 // 26. Ordenar els noms dels restaurants en ordre descendent, mostrant totes les columnes.
-
+db.restaurants.find({}, { _id: 0 }).sort({ name: -1 });
 
 // 27. Ordenar cuisine ascendent i borough descendent.
-
+db.restaurants.find({}, { _id: 0 }).sort({ cuisine: 1, borough: -1 });
 
 // 28. Mostrar direccions que no contenen el carrer.
 
