@@ -79,3 +79,39 @@
 ---
 - ✔️ OK - Query **[ 25 ]**
 
+---
+- ✔️ OK - Query **[ 26 ]**
+
+---
+- ✔️ OK - Query **[ 27 ]**
+
+---
+- ❌ MISMATCH - Query **[ 28 ]** Result does not match expected output.
+
+
+🔢 Different result lengths: 
+- **Expected:** 3
+- **Got:** 2
+
+---
+- ✔️ OK - Query **[ 29 ]**
+
+---
+- ✔️ OK - Query **[ 30 ]**
+
+---
+- ❌ MISMATCH - Query **[ 31 ]** Result does not match expected output.
+
+
+🔢 Different result lengths: 
+- **Expected:** 10
+- **Got:** 0
+
+---
+- ❌ MISMATCH - Query **[ 32 ]** Result does not match expected output.
+
+
+🔢 Different result lengths: 
+- **Expected:** 1
+- **Got:** 2
+
